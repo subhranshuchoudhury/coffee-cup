@@ -1,0 +1,51 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  height: 100vh;
+}
+
+.logo_name {
+  margin-top: 100px;
+}
+
+.title {
+  margin-top: 100px;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: rgb(68, 63, 63);
+}
+
+.title:hover {
+  color: white;
+}
+
+.cup_image {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+@media only screen and (max-width: 780px) {
+  .cup_image {
+    position: absolute;
+    /* left: 20px; */
+  }
+  .cup_image img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .cup_image {
+    position: static;
+    left: 0;
+  }
+  .cup_image img {
+    width: 200px;
+    height: 200px;
+  }
+}
